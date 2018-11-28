@@ -16,6 +16,5 @@ export function patch() {
         ShadowRoot.prototype.getSelection = function() {
             return document.getSelection();
         };
-        console.log('added ShadowRoot.getSelection');
     }
 }
