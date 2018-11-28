@@ -1,0 +1,11 @@
+{
+  "name": "shadow-root-get-selection-polyfill",
+  "version": "1.0.0",
+  "description": "Attempts to provide missing ShadowRoot.getSelection implementation in Firefox / Safari.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremiah Sturgill",
+  "license": "ISC"
+}
