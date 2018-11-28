@@ -8,6 +8,18 @@ Current browsers that do not provide a `shadowRoot.getSelection` implementation 
 
 Safari hasn't moved on this for [2 years](https://bugs.webkit.org/show_bug.cgi?id=163921), and the [GoogleChromeLabs polyfill](https://github.com/GoogleChromeLabs/shadow-selection-polyfill) doesn't actually address the problem.
 
+## Installation
+
+```
+npm install shadow-root-get-selection-polyfill
+```
+
+or
+
+```
+yarn add shadow-root-get-selection-polyfill
+```
+
 ## Usage
 
 ```js
