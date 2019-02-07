@@ -9,11 +9,8 @@
  * </pre></code>
  */
 export function patch() {
-    if (
-        typeof ShadowRoot !== 'undefined' &&
-        typeof ShadowRoot.getSelection === 'undefined'
-    ) {
-        ShadowRoot.prototype.getSelection = function() {
+    if (typeof ShadowRoot !== 'undefined') {
+        ShadowRoot.prototype.getSelection = ShadowRoot.prototype.getSelection || function() {
             return document.getSelection();
         };
     }
